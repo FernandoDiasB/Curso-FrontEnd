@@ -1,0 +1,68 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+
+<head>
+    <title> pagina de exemplo estrutura basica </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Daniel">
+    <meta name="description" content="descrição bacanuda">
+    <meta name="keywords" content="html5, tecnologia">
+
+    <style>
+        div {
+            padding: 12px;
+            margin-bottom: 12px;
+            background-color: rgb(216, 99, 31);
+            font-size: 18px;
+            font-family: sans-serif;
+            height: 200px;
+            width: 200px;
+            border-top-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            transition: transform 0.8s ease;
+        }
+
+        .div2.group2 {
+            position: absolute;
+            background-color: white;
+            z-index: 2;
+            height: 20px;
+            width: 20px;
+            margin-top: 25px;
+            margin-left: 25px;
+        }
+
+        .div3.group3 {
+            position: absolute;
+            background-color: white;
+            z-index: 2;
+            height: 20px;
+            width: 20px;
+            margin-top: 25px;
+            margin-left: 130px;
+        }
+
+        .rotate-on-hover:hover {
+            transform: rotate(360deg);
+            /* Gira a div em 45 graus quando o mouse passa por cima */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="rotate-on-hover">
+        <div class="div3 group3"></div>
+        <div class="div2 group2">
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
